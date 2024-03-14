@@ -78,7 +78,9 @@ void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2, int result[
   for(int i = 0; i < size2; i++){
     result[i + size1] = arr2[i];
   }
-    
+
+  
+  
 }
 
 /*
@@ -87,7 +89,11 @@ Descripción: Escribe una función que tome un arreglo y su tamaño,
 y luego devuelva 1 si el arreglo está ordenado en orden ascendente,
   0 si no está ordenado, y -1 si está ordenado en orden descendente.
 */
-int checkSorted(int arr[], int size) { return -2; }
+int checkSorted(int arr[], int size) { 
+  
+  
+  return -2; 
+}
 
 /*
 Ejercicio 6: Información de una Biblioteca
