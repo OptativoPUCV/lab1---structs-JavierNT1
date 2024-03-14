@@ -71,7 +71,18 @@ Descripción: Escribe una función que tome dos arreglos
 ordenados y sus tamaños, y luego fusione estos dos
 arreglos en un tercer arreglo también ordenado.
 */
+
+int cmp(const void *pivote, const void *item)
+{
+  int *ptrP = (int *) pivote;
+  int *ptrI = (int *) item;
+  if(ptrP->n > ptrI->n) return 1;
+  return 0;
+}
+
 void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2, int result[]) {
+  int nuevoSize = size1 + size2;
+  
   for(int i = 0; i < size1; i++){
     result[i] = arr1[i];
   }
@@ -79,8 +90,7 @@ void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2, int result[
     result[i + size1] = arr2[i];
   }
 
-  
-  
+  qsort(result, nuevoSize, sizeof(int), cmp);
 }
 
 /*

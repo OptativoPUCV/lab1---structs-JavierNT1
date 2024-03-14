@@ -48,3 +48,16 @@ Thu 14 Mar 2024 08:47:53 PM UTC:
  tests:  0|4
 total_score: 30/70
 eff7220
+Thu 14 Mar 2024 09:05:52 PM UTC: 
+ exercises.c | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘cmp’:
+exercises.c:79:10: error: request for member ‘n’ in something not a structure or union
+   79 |   if(ptrP->n > ptrI->n) return 1;
+      |          ^~
+exercises.c:79:20: error: request for member ‘n’ in something not a structure or union
+   79 |   if(ptrP->n > ptrI->n) return 1;
+      |                    ^~
+Compilation failed
+d9ac528
