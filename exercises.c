@@ -76,7 +76,7 @@ int cmp(const void *pivote, const void *item)
 {
   int *ptrP = (int *) pivote;
   int *ptrI = (int *) item;
-  if(ptrP->n > ptrI->n) return 1;
+  if(ptrP > ptrI) return 1;
   return 0;
 }
 
