@@ -1,1 +1,12 @@
 
+Thu 14 Mar 2024 08:24:51 PM UTC: 
+ exercises.c | 61 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++-----
+ 1 file changed, 56 insertions(+), 5 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:75:7: error: unused variable ‘nuevoSize’ [-Werror=unused-variable]
+   75 |   int nuevoSize = size1 + size2;
+      |       ^~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+a0daf5f
