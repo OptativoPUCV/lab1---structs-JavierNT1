@@ -36,3 +36,9 @@ exercises.c:75:7: error: unused variable ‘nuevoSize’ [-Werror=unused-variabl
 cc1: all warnings being treated as errors
 Compilation failed
 5cbd352
+Thu 14 Mar 2024 08:31:08 PM UTC: 
+ exercises.c | 2 --
+ 1 file changed, 2 deletions(-)
+ tests:  0|4
+total_score: 30/70
+811cc55
