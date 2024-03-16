@@ -110,9 +110,9 @@ int checkSorted(int arr[], int size) {
       ordDes++;
   }
   if(ordAsc > 0 && ordDes == 0)
-    return 1;
-  else if(ordAsc == 0 && ordDes > 0)
     return -1;
+  else if(ordAsc == 0 && ordDes > 0)
+    return 1;
   else return 0;
 }
 
